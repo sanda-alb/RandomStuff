@@ -1,0 +1,6 @@
+module Pods_RandomStuff {
+  umbrella header "Pods-RandomStuff-umbrella.h"
+
+  export *
+  module * { export * }
+}
