@@ -12,8 +12,8 @@ final class ViewController: UIViewController {
     
     private let label = UILabel()
     private let textField = UITextField()
-    private let editLabelBtn = UIButton(type: .system)
-    private let nextPageBtn = UIButton(type: .system)
+    private let editLabelBtn = UIButton()
+    private let nextPageBtn = UIButton()
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,7 +78,7 @@ final class ViewController: UIViewController {
         textField.backgroundColor = .textFieldBackground
         textField.textColor = .darkTextColor
         textField.placeholder = "Write something..."
-        textField.layer.cornerRadius = .cornerR
+        textField.layer.cornerRadius = .cornerRadius
         textField.font = UIFont.systemFont(ofSize: 30)
         textField.leftViewMode = .always
         textField.leftView = UIView(
@@ -92,12 +92,12 @@ final class ViewController: UIViewController {
        
         editLabelBtn.backgroundColor = .buttonBackground
         editLabelBtn.setTitle("Done", for: .normal)
-        editLabelBtn.layer.cornerRadius = .cornerR
+        editLabelBtn.layer.cornerRadius = .cornerRadius
         editLabelBtn.setTitleColor(.white, for: .normal)
         
         nextPageBtn.backgroundColor = .buttonBackground
         nextPageBtn.setTitle("Next page", for: .normal)
-        nextPageBtn.layer.cornerRadius = .cornerR
+        nextPageBtn.layer.cornerRadius = .cornerRadius
         nextPageBtn.setTitleColor(.white, for: .normal)
     }
     

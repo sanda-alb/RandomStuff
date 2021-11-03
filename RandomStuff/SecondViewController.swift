@@ -49,7 +49,7 @@ class SecondViewController: UIViewController {
         }
     }
     
-    private func  setupLayout() {
+    private func setupLayout() {
         label.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.centerX.equalToSuperview()

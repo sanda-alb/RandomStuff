@@ -8,5 +8,5 @@
 import UIKit
 
 extension CGFloat {
-    static let cornerR: CGFloat = 10
+    static let cornerRadius: CGFloat = 10
 }
